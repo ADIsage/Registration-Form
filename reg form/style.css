@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family: 'Poppins', sans-serif ;   
+}
+body{
+background-image:url(bg-intro-desktop.png);
+display: flex;
+background-color:hsl(0, 100%, 74%) ;
+height: 100vh;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin: auto;
+width: 100%;
+
+}
+
+.container form .user-details{
+    display:grid;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.top{
+background-color: hsl(248, 32%, 49%);
+height: 50px; 
+width: 30em;
+box-shadow: rgb(75, 74, 74) 2px 5px ;
+}
+
+p{
+    color:gray;
+    margin: 10px;
+    font-size: 10px;
+}
+a{
+     color: red;
+}
+.bottom{
+margin: 5px;
+align-content: center;
+color: #fff;
+line-height: 2;
+box-sizing:;
+}
+button{
+ background-color: hsl(154, 59%, 51%);
+ color: #fff;
+ margin: 10px;
+ align-items: baseline;
+border-radius: 5px;
+padding: 10px;
+border: none;
+}
+
+button:hover {
+cursor: pointer;
+background-color: hsl(154, 59%, 51%);
+color: white;
+box-shadow: 0 0 5px white, 0 0 10px white;
+font-weight: bold;
+}
+.top:hover {
+    cursor: pointer;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    font-weight: bold;
+
+}
+h2{
+    font-size: 35px;
+    align-items:center;
+    justify-content: center;
+    margin: 20px;
+    line-height: 1;
+    color: #fff;
+}
+h4{align-items: center;
+    justify-content: left;
+    font-size: 10px;
+    margin: 10px;
+    color: #fff;
+}
